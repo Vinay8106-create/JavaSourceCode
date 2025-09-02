@@ -1,0 +1,23 @@
+1) factorial
+2) fibonacci (recursion also)
+3) swap 2 var with or without temp
+4) reverse a number -> palindrome number
+5) prime number
+6) strong number
+7) armStrong number
+8) array programs
+    a) max and min element in an array
+    b) sec max and sec min
+    c) print first half and second half and how to swap first half and second half positions
+    d) sum of , and product of, and avg of an elements in array
+    e) how to print even or odd index elements
+    f) sum of even index and odd index
+    g) print duplicates or find duplicates and count duplicates
+    h) missing element or missing multiple elements
+
+9) String programs 
+    a) String reverse -> String palindrome
+    b) count the vowels and consonants
+    c) remove the spaces in a String
+    d) Anagram 
+    e) 

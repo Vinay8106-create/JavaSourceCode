@@ -1,0 +1,6 @@
+in java 8 we got types of interfaces based on no of abstract methods present in them 
+- if an interface have only one abstract method methods the interface is known as Functional interface (before java 8 it is used to called SAM(Single Abstract Method))
+- if an interface does not have any abstract methods then it is called Marker Interface
+
+- most of the interfaces in java are Functional Interfaces
+- in java 8, Functional interface got a new feature
