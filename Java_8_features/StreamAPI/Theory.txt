@@ -1,0 +1,22 @@
+-> to store the group of objects we use collection, and to process group og objects we use stream API
+how to process ? : by using various methods or mechanisms
+    -> to process a group of Objects or data in collection stream provides 2 methods :
+      1 - Filter ()
+      2 - Map ()
+
+- Filter() : Filter means based upon the condition we filter the data and put the data in some other condition
+- Map() : we will get each and every object from the collection, we will apply certain operations on every element and result will be stored in some other collection
+
+NOTE : Here, we directly not process the collection , first we put the data of collection into stream API and then we process it and place it in other collection or use the data for some other purpose
+      - Stream is an API, and stream will not effect the original collection / source
+
+Some more methods of stream API :
+    -> sorted() : we can sort the data after filtering or during filtering
+    -> count() :
+    -> collect() :
+    -> distinct() : to remove duplicate objects
+    -> foreach() : 
+    -> min() :
+    -> map() :
+    
+whenever we are using this stream API methods , we use lambda expressions

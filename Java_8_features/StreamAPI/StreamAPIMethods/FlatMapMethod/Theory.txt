@@ -1,0 +1,4 @@
+whenever we have complex collection like multiple collection inside the main collection, to process these kind of collection we use FlatMap
+- FlatMap will return multiple values after processing from stream, basically FlatMap() returns stream of Objects
+- Map() will return single Object everytime, but FlatMap() will stream of Objects
+- after processing the data we can store them in some other collection

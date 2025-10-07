@@ -1,0 +1,61 @@
+-> hibernate - mapping (uni & bi-directional) , query parameter and named parameter types of parameters, hibernate transactions
+      Spring boot - Rest API, diff between restController and controller, AutoWiredAnnotation
+              - spring injection 
+              - post mapping, put mapping, get mapping, delete mapping  : annotations
+              - ORM FrameWork
+              - DAO and DTO in spring boot
+              - diff between spring, spring MVC with JPA, spring boot
+
+
+Spring :
+    -> Spring will resolves problems like 
+      1 - Tight Coupling
+      2 - Hard to test
+      3 - Scattered Object Creation
+      : all of the above problems can go away with the introduction of Dependency injection (DI) and IOC container (Spring)
+      -> IOC : inversion of Control (spring taking control from developer and keeping it with it)
+                - IOC will manage Object creation and maintenance
+
+
+Spring Framework Runtime / Architecture (Modules) : it is combination of multiple frame Work (Spring Core is important)
+
+                    =>  Data Access / Integration                                  => Web (MVC / Remoting)
+                        1 - JDBC                                                      1 - Web
+                        2 - ORM                                                       2 - Servlet
+                        3 - OXM                                                       3 - portlet
+                        4 - JMS                                                       4 - Web Socket
+                        5 - TRANSACTIONS
+
+                    =>  AOP                                                        => Aspects  => Instrumentation      
+                    => Core container
+                      1 - Beans
+                      2 - Core
+                      3 - Context
+                      4 - Expression Language
+
+                    => Test
+
+
+Spring Boot : - it is used to handle the Auto Configuration
+              - starter dependencies
+              - Embedded servers (tomcat, jetty)
+              - production-ready features (health checks, metrics)
+
+              -> Spring FrameWork + Auto Configuration + Conventions + Tools = Spring Boot
+
+Minimum Spring knowledge to learn First to proceed with Spring Boot : 
+ 1 - IOC and Dependency Injection (DI) : @Component, @AutoWired, Constructor Injection
+ 2 - Bean Management : @Configuration, @Bean
+ 3 - Spring Context : what is application Context
+ 4 - Spring MVC Basics : @Controller, @RestController, @RequestMapping
+
+ -> Now start Spring Boot
+  - once done with Spring, move to these Spring Boot Topics : 
+    -> Spring Boot Auto-Configuration
+    -> Starter dependencies
+    -> properties and YAML Configuration
+    -> Spring Boot CLI (Optional)
+    -> Spring Boot DevTools and Actuator
+    -> Error handling, validation, profiles
+
+    

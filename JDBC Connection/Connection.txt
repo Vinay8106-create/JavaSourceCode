@@ -1,0 +1,47 @@
+JDBC is an API (Application Programming Interface), which is used to connect the application(java application servlet with RDBMS using Drivers)
+JDBC API is defined in the following packages :
+-> (java.sql) and (javax.sql)
+
+Key Classes :
+-> java.sql.DriverManager
+-> java.sql.Connection
+-> java.sql.Statement
+-> java.sql.ResultSet
+-> javax.sql.DataSource (for connection pooling)
+
+
+Development Process :
+
+1)  Get a connection to DataBase
+2) Create a statement Object
+3) Execute SQL Query
+4) Process Result Set
+
+Step-1 : Get a connection to the DataBase
+-> in order to connect a DataBase 
+    - Need a connection String in the form of JDBC URL
+
+-> Basic Syntax
+    - jdbc:<driver protocol>:<driver connection details>
+    example : MySql server - jdbc:odbc:DemonDSN
+
+Failure to connect to dataBase will throw two Exceptions :
+1) java.sql.SQLException : due to bad URL or credentials
+2) java.lang.ClassNotFoundException: JDBC driver not in classPath
+
+Step-2 : Create a statement Object
+-> The statement Object is based on connection
+    -> it will be used later to execute SQLQuery
+
+Step-3 : execute SQLQuery
+-> pass in your SQLQuery
+
+Step-4 : Process the ResultSet
+-> ResultSet is initially placed before first row
+-> Method: ResultSet.next()
+    -> moves forward one row
+    -> return true if there are more rows to process
+-> looping through a ResultSet
+-> colection of methods for reading data
+    -> getxxx(columnName)
+    -> getxxx(columnIndex)  one-based

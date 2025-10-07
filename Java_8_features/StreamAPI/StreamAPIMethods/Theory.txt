@@ -1,0 +1,11 @@
+Stream API methods :
+  the below methods are also know as non-terminal methods : by using this methods we can process the data or Objects from the stream
+    non-terminal methods                    terminal operations / methods can be use on top of non terminal methods
+    -> filter()                              -> collect()
+    -> map()                                 -> count()
+    -> flatMap()                             -> min()
+    -> distinct()                            -> max()
+    -> limit()                               -> forEach()
+                                             -> toArray() : to copy the Objects from stream in the form of Array
+
+-> terminal methods will always return stream of Objects
